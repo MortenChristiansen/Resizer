@@ -1,0 +1,21 @@
+﻿v1.0 -> v1.1 changes:
+--------------------------------------
+-Option for copying all meta data to new image.
+-Button for setting the active directory to the app directory.
+-Fixed issue where the jpg extension had to be all lowercase.
+-Options used are now saved and automatically carried over between each use of the app.
+--------------------------------------
+
+v1.1 -> v1.2 changes:
+--------------------------------------
+-Added options for setting length of the minimum, vertical and horizontal dimensions, instead of just the maximum dimension.
+-The resizing work is now done in a background thread making the UI responsive while working.
+-Added support of cancelling work.
+-Removed a bug preventing the progressbar from being updated properly.
+--------------------------------------
+
+v1.2 -> v1.3 changes:
+--------------------------------------
+-Added support for png images.
+-Fixed missing support for jpg images with the extension 'jpeg'.
+--------------------------------------

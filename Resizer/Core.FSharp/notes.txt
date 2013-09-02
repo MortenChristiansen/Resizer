@@ -1,0 +1,13 @@
+﻿Approach
+
+An Imaging module for various utility functionality for manipulating images.
+
+A view model class, such that the Shell project can  consume it. It must fullfill the databinding interface
+expected by the UI.
+
+A Converters module for all conversion functionality. Again, this must be a class for the view to consume it.
+
+
+A couple of links to improved resizing quality:
+http://stackoverflow.com/questions/2319983/resizing-an-image-in-asp-net-without-losing-the-image-quality
+http://stackoverflow.com/questions/13731483/c-sharp-how-to-resize-images-and-save-them-with-maximum-possible-quality-batch
